@@ -18,7 +18,9 @@ classifiers = [
 ]
 license = {text = "Apache Software License 2.0"}
 dependencies = [
-  
+  "loguru>=0.7.3",
+  "requests>=2.32.3",
+  "python-dotenv>=1.0.1",
 ]
 
 [project.optional-dependencies]
