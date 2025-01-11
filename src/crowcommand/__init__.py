@@ -2,7 +2,7 @@
 
 __author__ = """Samuel Edorodion"""
 __email__ = 'sedorodion2003@gmail.com'
-__version__ = '0.1.0'
+__version__ = '0.1.4'
 
 from .logger import Logger
 from .client import APIClient

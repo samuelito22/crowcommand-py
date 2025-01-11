@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crowcommand"
-version = "0.1.0"
+version = "0.1.4"
 description = "Modern monitoring platform that combines log management, performance metrics, and AI-powered insights to help small teams monitor and debug their applications with minimal setup."
 readme = "README.rst"
 authors = [
