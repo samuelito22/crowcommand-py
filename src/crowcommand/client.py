@@ -4,7 +4,7 @@ from typing import Dict, Any, Optional
 from dotenv import load_dotenv
 
 class APIClient:
-    PRODUCTION_API_BASE = "https://api.crowcommander.com"
+    PRODUCTION_API_BASE = "https://api.crowcommand.com"
     DEVELOPMENT_API_BASE = "http://localhost:8000"
     
     def __init__(self, api_key: str):
