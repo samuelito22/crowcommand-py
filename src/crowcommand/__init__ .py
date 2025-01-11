@@ -4,8 +4,8 @@ __author__ = """Samuel Edorodion"""
 __email__ = 'sedorodion2003@gmail.com'
 __version__ = '0.1.0'
 
-from crowcommand.logger import Logger
-from crowcommand.client import APIClient
+from .logger import Logger
+from .client import APIClient
 from .internal_logger import logger as internal_logger, set_silent
 from typing import Literal
 
@@ -13,6 +13,7 @@ from typing import Literal
 Environment = Literal['development', 'production']
 
 _client_instance = None
+logger = Logger()
 
 def setup(
     api_key: str, 
@@ -47,8 +48,5 @@ def setup(
     internal_logger.info(f"Initialized Crowcommander SDK in {environment} mode")
     
     return _client_instance
-
-
-logger = Logger()
 
 __all__ = ['logger', 'setup']
