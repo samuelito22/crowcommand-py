@@ -4,8 +4,8 @@ __author__ = """Samuel Edorodion"""
 __email__ = 'sedorodion2003@gmail.com'
 __version__ = '0.1.0'
 
-from crowcommander.logger import Logger
-from crowcommander.client import APIClient
+from crowcommand.logger import Logger
+from crowcommand.client import APIClient
 from .internal_logger import logger as internal_logger, set_silent
 from typing import Literal
 

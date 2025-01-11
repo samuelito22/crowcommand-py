@@ -1,7 +1,7 @@
 from typing import Any, Optional, Union, TextIO, Dict, Callable
 from pathlib import Path
 from loguru import logger as _logger
-from crowcommander.client import APIClient
+from crowcommand.client import APIClient
 from .internal_logger import logger as internal_logger
 import traceback
 import inspect
